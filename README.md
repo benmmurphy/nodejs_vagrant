@@ -1,17 +1,17 @@
 #Nodejs for Ubuntu Oneiric
 
-vagrant box add vagrant-oneiric https://github.com/downloads/benmmurphy/nodejs_vagrant/package_4.1.8.box
-vagrant up
-vagrant ssh-config >> ~/.ssh/config
+    vagrant box add vagrant-oneiric https://github.com/downloads/benmmurphy/nodejs_vagrant/package_4.1.8.box
+    vagrant up
+    vagrant ssh-config >> ~/.ssh/config
 
-git clone git@github.com:benmmurphy/nodejs_vagrant_helloworld.git
-cd nodejs_vagrant_helloworld
-cap deploy:setup
-cap deploy
+    git clone git@github.com:benmmurphy/nodejs_vagrant_helloworld.git
+    cd nodejs_vagrant_helloworld
+    cap deploy:setup
+    cap deploy
 
-ssh default
+    ssh default
 
-curl -v http://localhost:3000
+    curl -v http://localhost:3000
 
 
 
