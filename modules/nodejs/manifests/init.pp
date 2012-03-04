@@ -6,11 +6,11 @@ class nodejs {
   require chrisleappa
 
   package { "nodejs":
-    ensure => "0.6.10-1chl1~oneiric1",
+    ensure => "0.6.12-1chl~oneiric1",
     require => Class['chrisleappa']
   }
   package {"npm":
-    ensure => "1.1.0-2~oneiric1",
+    ensure => "1.1.4-1chl1~oneiric1",
     require => Class['chrisleappa']
   }
 
