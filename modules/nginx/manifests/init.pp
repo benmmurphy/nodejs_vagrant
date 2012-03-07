@@ -7,7 +7,7 @@ class nginx {
   require nginxppa
 
   package { "nginx":
-    ensure => "1.0.11-1ppa1~oneiric",
+    ensure => present,
     require => Class[nginxppa]
   }
 
