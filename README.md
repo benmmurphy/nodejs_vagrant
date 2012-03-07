@@ -1,5 +1,7 @@
 #Nodejs for Ubuntu Oneiric
 
+    gem install vagrant
+    
     git clone git://github.com/benmmurphy/nodejs_vagrant.git
     cd nodejs_vagrant
     
